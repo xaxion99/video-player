@@ -1,0 +1,39 @@
+diff --git a/node_modules/videojs-playlist-ui/dist/videojs-playlist-ui.js b/node_modules/videojs-playlist-ui/dist/videojs-playlist-ui.js
+index 6c2eb52..5ab65c3 100644
+--- a/node_modules/videojs-playlist-ui/dist/videojs-playlist-ui.js
++++ b/node_modules/videojs-playlist-ui/dist/videojs-playlist-ui.js
+@@ -23,6 +23,7 @@
+   const defaults = {
+     className: 'vjs-playlist',
+     playOnSelect: false,
++    clickable: false,
+     supportsCssPointerEvents
+   }; // we don't add `vjs-playlist-now-playing` in addSelectedClass
+   // so it won't conflict with `vjs-icon-play
+@@ -106,9 +107,12 @@
+       super(player, playlistItem);
+       this.item = playlistItem.item;
+       this.playOnSelect = settings.playOnSelect;
+-      this.emitTapEvents();
+-      this.on(['click', 'tap'], this.switchPlaylistItem_);
+-      this.on('keydown', this.handleKeyDown_);
++      this.clickable = settings.clickable;
++      if(this.clickable) {
++        this.emitTapEvents();
++        this.on(['click', 'tap'], this.switchPlaylistItem_);
++        this.on('keydown', this.handleKeyDown_);
++      }
+     }
+ 
+     handleKeyDown_(event) {
+@@ -407,6 +411,10 @@
+    * @param  {boolean} [options.playOnSelect = false]
+    *         If true, will attempt to begin playback upon selecting a new
+    *         playlist item in the UI.
++   * 
++   * @param  {boolean} [options.clickable = false]
++   *         If true, will allow the playlist UI to be clickable; otherwise,
++   *         the playlist UI will just be visual.
+    */
+ 
+ 

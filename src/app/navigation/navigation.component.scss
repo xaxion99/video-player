@@ -1,0 +1,48 @@
+$bg-color: #000000;
+$hover-color: #00A4CCFF;
+$text-color: #ffffff;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: $bg-color;
+}
+
+.container-fluid {
+    display: inline-block;
+    width: 100vw;
+    max-height: 100px;
+    background-color: $bg-color;
+}
+
+.navlist {
+    align-items: center;
+    justify-content: space-around;
+    // width: 60%;
+    // height: 100%;
+    float: left;
+    background-color: $bg-color;
+}
+
+.navlist ul {
+    align-items: center;
+    text-align: center;
+    // list-style: none;
+}
+
+.navlist ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.navlist a {
+    color: $text-color;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+        
+.navlist a:hover {
+    background: $hover-color;
+}

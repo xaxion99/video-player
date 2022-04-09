@@ -1,0 +1,30 @@
+.main-player {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.video-js,
+.playlist-container {
+    position: relative;
+    min-width: 300px;
+    min-height: 347px;
+    height: 0;
+}
+
+.video-js {
+    flex: 4 1 80%;
+}
+
+.playlist-container {
+    flex: 1 1 20%;
+}
+  
+.vjs-playlist {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

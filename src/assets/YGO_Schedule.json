@@ -1,0 +1,298 @@
+[{
+    "name": "1330: Yu-Gi-Oh! S0E1",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_01.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1477"
+}, {
+    "name": "1400: Yu-Gi-Oh! S0E2",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_02.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1477"
+}, {
+    "name": "1430: Yu-Gi-Oh! S0E3",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_03.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1479"
+}, {
+    "name": "1500: Yu-Gi-Oh! S0E4",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_04.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1477"
+}, {
+    "name": "1530: Yu-Gi-Oh! S0E5",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_05.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1479"
+}, {
+    "name": "1600: Yu-Gi-Oh! S0E6",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_06.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1479"
+}, {
+    "name": "1630: Yu-Gi-Oh! S0E7",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_07.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1478"
+}, {
+    "name": "1700: Yu-Gi-Oh! S0E8",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_08.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1475"
+}, {
+    "name": "1730: Yu-Gi-Oh! S0E9",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_09.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1478"
+}, {
+    "name": "1800: Yu-Gi-Oh! S0E10",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_10.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1480"
+}, {
+    "name": "1830: Yu-Gi-Oh! S0E11",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_11.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1479"
+}, {
+    "name": "1900: Yu-Gi-Oh! S0E12",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_12.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1493"
+}, {
+    "name": "1930: Yu-Gi-Oh! S0E13",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_13.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1477"
+}, {
+    "name": "2000: Yu-Gi-Oh! S0E14",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_14.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1478"
+}, {
+    "name": "2030: Yu-Gi-Oh! S0E15",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_15.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1479"
+}, {
+    "name": "2100: Yu-Gi-Oh! S0E16",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_16.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1477"
+}, {
+    "name": "2130: Yu-Gi-Oh! S0E17",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_17.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1479"
+}, {
+    "name": "2200: Yu-Gi-Oh! S0E18",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_18.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1479"
+}, {
+    "name": "2230: Yu-Gi-Oh! S0E19",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_19.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1479"
+}, {
+    "name": "2300: Yu-Gi-Oh! S0E20",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_20.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1474"
+}, {
+    "name": "2330: Yu-Gi-Oh! S0E21",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_21.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1480"
+}, {
+    "name": "0000: Yu-Gi-Oh! S0E22",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_22.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1479"
+}, {
+    "name": "0030: Yu-Gi-Oh! S0E23",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_23.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1479"
+}, {
+    "name": "0100: Yu-Gi-Oh! S0E24",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_24.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1477"
+}, {
+    "name": "0130: Yu-Gi-Oh! S0E25",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_25.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1477"
+}, {
+    "name": "0200: Yu-Gi-Oh! S0E26",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_26.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1480"
+}, {
+    "name": "0230: Yu-Gi-Oh! S0E27",
+    "sources": [{
+      "src": "assets/MP4/Yu-Gi-Oh_-_27.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1452"
+}]
