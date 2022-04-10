@@ -34,7 +34,7 @@ export class Channel2Component implements OnInit, DoCheck, OnDestroy {
     this.player = videojs('player');
 
     // Set the playlist and then start loop
-    const pl:any = this.fl.load_schedule(1);
+    const pl:any = this.fl.load_playlist(1);
     this.player.playlist(pl);
     this.player.playlist.repeat(true);
 

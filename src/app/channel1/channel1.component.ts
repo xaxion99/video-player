@@ -35,7 +35,7 @@ export class Channel1Component implements OnInit, DoCheck, OnDestroy {
     this.player = videojs('player');
 
     // Set the playlist and then start loop
-    const pl:any = this.fl.load_schedule(1);
+    const pl:any = this.fl.load_playlist(1);
     this.player.playlist(pl);
     this.player.playlist.repeat(true);
 
@@ -73,7 +73,7 @@ export class Channel1Component implements OnInit, DoCheck, OnDestroy {
 
   ngDoCheck(): void {
     this.current_time = new Date();
-    const pl:any = this.fl.load_schedule(1);
+    const pl:any = this.fl.load_playlist(1);
 
     let val = this.s.get_schedule(this.current_time, this.interval, this.offset);
     val = val % pl.length; // Used to repeat playlist to eliminate downtime
