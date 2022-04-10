@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 
-import * as ygo_playlist from 'src/assets/YGO_Playlist.json'
+import * as playlist1 from 'src/assets/playlists/playlist1.json'
+import * as schedule1 from 'src/assets/schedules/schedule1.json'
 
 @Injectable({
   providedIn: 'root'
@@ -20,9 +21,9 @@ export class FileLoaderService {
 
   select_playlist(playlist_selector:number) {
     if(playlist_selector == 1) {
-      return ygo_playlist;
+      return playlist1;
     } else {
-      return ygo_playlist;
+      return playlist1;
     }
   }
 }
