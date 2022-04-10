@@ -14,9 +14,25 @@ export class SchedulesService {
   // Function to get timing intervals for a day. Genericized all the timings.
   timings(interval:string) {
     const array = [];
-    if(interval == "5_min") {
+    if(interval == "1_min") {
+      array.push(this.hours);
+      array.push([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 
+        31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]);
+    } else if(interval == "2_min") {
+      array.push(this.hours);
+      array.push([0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58]);
+    } else if(interval == "3_min") {
+      array.push(this.hours);
+      array.push([0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57]);
+    } else if(interval == "4_min") {
+      array.push(this.hours);
+      array.push([0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56]);
+    } else if(interval == "5_min") {
       array.push(this.hours);
       array.push([0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55]);
+    } else if(interval == "6_min") {
+      array.push(this.hours);
+      array.push([0, 6, 12, 18, 24, 30, 36, 42, 48, 54]);
     } else if(interval == "10_min") {
       array.push(this.hours);
       array.push([0, 10, 20, 30, 40, 50]);
@@ -58,6 +74,9 @@ export class SchedulesService {
       array.push(this.minutes);
     } else if(interval == "12_hr") {
       array.push([0, 12]);
+      array.push(this.minutes);
+    } else if(interval == "24_hr") {
+      array.push([0]);
       array.push(this.minutes);
     }
     return array;
