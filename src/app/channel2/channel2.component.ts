@@ -19,6 +19,7 @@ export class Channel2Component implements OnInit, DoCheck, OnDestroy {
   start_time: any;
   current_time: any;
   offset:number = 0;
+  interval:string = "30_min";
 
   constructor(
     private dtc: DateTimeConverterService,
@@ -41,7 +42,7 @@ export class Channel2Component implements OnInit, DoCheck, OnDestroy {
     this.player.playlistUi();
     
     // Setup the initial video
-    let val = this.s.init_30min_schedule(this.start_time, this.offset)
+    let val = this.s.init_schedule(this.start_time, this.interval, this.offset);
     val = val % pl.length; // Used to repeat playlist to eliminate downtime
     if(val > -1) {
       console.log(val);
@@ -54,7 +55,6 @@ export class Channel2Component implements OnInit, DoCheck, OnDestroy {
       const diff = 1800 - pl[val].duration;
       this.current_time = new Date();
       const time_since_start = ((this.current_time.getMinutes() % 30) * 60) + this.current_time.getSeconds();
-      console.log(time_since_start);
       if( time_since_start > diff) {
         this.player.currentTime(time_since_start - diff);
       }
@@ -70,9 +70,9 @@ export class Channel2Component implements OnInit, DoCheck, OnDestroy {
   ngDoCheck(): void {
     this.current_time = new Date();
 
-    let val = this.s.get_30min_schedule(this.current_time, this.offset);
+    let val = this.s.get_schedule(this.current_time, this.interval, this.offset);
     
-    if(this.s.get_30min_flag()) {
+    if(this.s.get_flag()) {
       if(val > -1) {
         console.log(val);
       }

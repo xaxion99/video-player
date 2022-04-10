@@ -20,6 +20,7 @@ export class Channel1Component implements OnInit, DoCheck, OnDestroy {
   start_time: any;
   current_time: any;
   offset:number = 0;
+  interval:string = "30_min";
 
   constructor(
     private dtc: DateTimeConverterService,
@@ -42,10 +43,10 @@ export class Channel1Component implements OnInit, DoCheck, OnDestroy {
     this.player.playlistUi();
     
     // Setup the initial video
-    // const temp = this.s.init_12hr_schedule(this.start_time);
+    // const temp = this.s.init_schedule(this.start_time, this.interval);
     // console.log(temp);
 
-    let val = this.s.init_30min_schedule(this.start_time, this.offset)
+    let val = this.s.init_schedule(this.start_time, this.interval, this.offset);
     val = val % pl.length; // Used to repeat playlist to eliminate downtime
     if(val > -1) {
       console.log(val);
@@ -57,7 +58,7 @@ export class Channel1Component implements OnInit, DoCheck, OnDestroy {
       // time an thus will restart full video if within differential
       const diff = 1800 - pl[val].duration;
       this.current_time = new Date();
-      const time_since_start = ((this.current_time.getMinutes() % 30) * 60) + this.current_time.getSeconds();
+      const time_since_start = ((this.current_time.getMinutes() % 30) * 60) + this.current_time.getSeconds();  // Review this line to make system more generic
       if( time_since_start > diff) {
         this.player.currentTime(time_since_start - diff);
       }
@@ -74,10 +75,10 @@ export class Channel1Component implements OnInit, DoCheck, OnDestroy {
     this.current_time = new Date();
     const pl:any = this.fl.load_schedule(1);
 
-    let val = this.s.get_30min_schedule(this.current_time, this.offset);
+    let val = this.s.get_schedule(this.current_time, this.interval, this.offset);
     val = val % pl.length; // Used to repeat playlist to eliminate downtime
     
-    if(this.s.get_30min_flag()) {
+    if(this.s.get_flag()) {
       if(val > -1) {
         console.log(val);
       }
