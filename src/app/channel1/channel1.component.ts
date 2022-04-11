@@ -76,6 +76,9 @@ export class Channel1Component implements OnInit, DoCheck, OnDestroy {
     this.current_time = new Date();
     const pl:any = this.fl.load_playlist(1);
 
+    const temp = this.fl.load_schedule(1);
+    let tempval = this.s.init_manual_schedule(this.start_time, temp, this.offset);
+
     let val = this.s.get_schedule(this.current_time, this.interval, this.offset);
     val = val % pl.length; // Used to repeat playlist to eliminate downtime
     

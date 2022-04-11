@@ -222,19 +222,17 @@ export class SchedulesService {
 
   // Get the current track when a time change happens on generic equal-interval schedule 
   // and trigger flag to prevent duplicate entry
-  get_manual_schedule(time:Date, interval:string, offset=0) {
-    const tmg = this.timings(interval);
-    const s = this.build_schedule(tmg[0], tmg[1]);
-    const mod = tmg[0].length * tmg[1].length;
-    for(let i = 0; i < s.length; i++) {
+  get_manual_schedule(time:Date, schedule:any, offset=0) {
+    const mod = schedule.length;
+    for(let i = 0; i < schedule.length; i++) {
       let j = (i + offset) % mod;
-      let next = s[j].minutes + 1;
-      if(time.getHours() == s[j].hours && time.getMinutes() == s[j].minutes && this.get_flag() == false) {
-        this.flag = true;
+      let next = schedule[j].minutes + 1;
+      if(time.getHours() == schedule[j].hours && time.getMinutes() == schedule[j].minutes && this.get_manual_flag() == false) {
+        this.manual_flag = true;
         this.track = i;
         return this.track;
-      } else if(time.getHours() == s[j].hours && time.getMinutes() == next) {
-        this.flag = false;
+      } else if(time.getHours() == schedule[j].hours && time.getMinutes() == next) {
+        this.manual_flag = false;
         this.track = -1;
         return this.track;
       }
