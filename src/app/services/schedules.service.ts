@@ -226,7 +226,7 @@ export class SchedulesService {
     const mod = schedule.length;
     for(let i = 0; i < schedule.length; i++) {
       let j = (i + offset) % mod;
-      let next = schedule[j].minutes + 1;
+      let next = schedule[j].start_minute + 1;
       if(time.getHours() == schedule[j].start_hour && time.getMinutes() == schedule[j].start_minute && this.get_manual_flag() == false) {
         this.manual_flag = true;
         this.track = i;
