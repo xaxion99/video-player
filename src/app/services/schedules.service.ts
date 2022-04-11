@@ -50,6 +50,9 @@ export class SchedulesService {
     } else if(interval == "30_min") {
       array.push(this.hours);
       array.push([0, 30]);
+    } else if(interval == "40_min") { // NOTE: Does not work
+      array.push(this.hours);
+      array.push([0, 30]);
     } else if(interval == "45_min") {  // NOTE: Does not work
       array.push(this.hours);
       array.push(this.minutes);

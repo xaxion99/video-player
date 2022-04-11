@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./player.component.scss']
 })
 export class PlayerComponent implements OnInit {
+  default:string = "assets/MP4/Yu-Gi-Oh_-_01.mp4"
 
   constructor() { }
 
