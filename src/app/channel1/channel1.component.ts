@@ -43,8 +43,9 @@ export class Channel1Component implements OnInit, DoCheck, OnDestroy {
     this.player.playlistUi();
     
     // Setup the initial video
-    // const temp = this.s.init_schedule(this.start_time, this.interval);
-    // console.log(temp);
+    const temp = this.fl.load_schedule(1);
+    let tempval = this.s.init_manual_schedule(this.start_time, temp, this.offset);
+    console.log(tempval);
 
     let val = this.s.init_schedule(this.start_time, this.interval, this.offset);
     val = val % pl.length; // Used to repeat playlist to eliminate downtime

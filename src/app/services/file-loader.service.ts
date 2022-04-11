@@ -11,12 +11,12 @@ export class FileLoaderService {
   constructor() { }
 
   load_playlist(playlist_selector:number) { 
-    const schedule = this.select_playlist(playlist_selector);   
+    const pl = this.select_playlist(playlist_selector);   
     // Get the index of the JSON import which contains the valid array data
-    let index = Object.keys(schedule).length - 1;
+    let index = Object.keys(pl).length - 1;
     // Return that data to a playlist array
-    const playlist = Object.values(schedule)[index];
-    return playlist
+    const playlist = Object.values(pl)[index];
+    return playlist;
   }
 
   select_playlist(playlist_selector:number) {
@@ -24,6 +24,23 @@ export class FileLoaderService {
       return playlist1;
     } else {
       return playlist1;
+    }
+  }
+
+  load_schedule(schedule_selector:number) { 
+    const s = this.select_schedule(schedule_selector);   
+    // Get the index of the JSON import which contains the valid array data
+    let index = Object.keys(s).length - 1;
+    // Return that data to a playlist array
+    const schedule = Object.values(s)[index];
+    return schedule;
+  }
+
+  select_schedule(schedule_selector:number) {
+    if(schedule_selector == 1) {
+      return schedule1;
+    } else {
+      return schedule1;
     }
   }
 }
