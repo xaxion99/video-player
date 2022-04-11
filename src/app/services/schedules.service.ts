@@ -206,8 +206,8 @@ export class SchedulesService {
         }
       }
 
-      console.log("Start Hr: " + schedule[j].start_hour + ", Next Hr: " + nexthr + ", Start Min: " + schedule[j].start_minute 
-      + ", Next Min: " + nextmin + ", Current Hour: " + time.getHours() + ", Current Min: " + time.getMinutes());
+      // console.log("Start Hr: " + schedule[j].start_hour + ", Next Hr: " + nexthr + ", Start Min: " + schedule[j].start_minute 
+      // + ", Next Min: " + nextmin + ", Current Hour: " + time.getHours() + ", Current Min: " + time.getMinutes());
 
       if(time.getHours() >= schedule[j].start_hour && time.getHours() <= nexthr) {
         if(time.getMinutes() >= schedule[j].start_minute && time.getMinutes() <= nextmin) {

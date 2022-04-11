@@ -42,11 +42,6 @@ export class Channel1Component implements OnInit, DoCheck, OnDestroy {
 
     // Create the Playlist UI
     this.player.playlistUi();
-    
-    // Setup the initial video
-    const temp = this.fl.load_schedule(1);
-    const tempval = this.s.init_manual_schedule(this.start_time, temp, this.offset);
-    console.log(tempval);
 
     let val:number;
     if(this.manual == true) {
@@ -84,17 +79,10 @@ export class Channel1Component implements OnInit, DoCheck, OnDestroy {
     this.current_time = new Date();
     const pl:any = this.fl.load_playlist(1);
 
-    const temp = this.fl.load_schedule(1);
-    const tempval = this.s.get_manual_schedule(this.start_time, temp, this.offset);
-    // console.log(tempval);
-    if(tempval > -1) {
-      console.log(tempval);
-    }
-
     let val:number;
     if(this.manual == true) {
       const sched = this.fl.load_schedule(1);
-      val = this.s.get_manual_schedule(this.start_time, sched, this.offset);
+      val = this.s.get_manual_schedule(this.current_time, sched, this.offset);
     } else {
       val = this.s.get_schedule(this.current_time, this.interval, this.offset);
     }
