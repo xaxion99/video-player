@@ -112,7 +112,7 @@ export class SchedulesService {
       if(j == (s.length - 1)) {
         if(s[0].minutes == s[j].minutes) {
           nexthr = s[0].hours + 24;
-          nextmin = s[0].minutes + 1;
+          nextmin = s[0].minutes;
         } else if(s[0].minutes == 0) {
           nexthr = s[0].hours;
           nextmin = 60;
@@ -124,7 +124,7 @@ export class SchedulesService {
         let k = j + 1;
         if(s[k].minutes == s[j].minutes) {
           nexthr = s[k].hours;
-          nextmin = s[k].minutes + 1;
+          nextmin = s[k].minutes;
         } else if(s[k].minutes == 0) {
           nexthr = s[j].hours;
           nextmin = 60;
@@ -206,8 +206,8 @@ export class SchedulesService {
         }
       }
 
-      // console.log("Start Hr: " + schedule[j].start_hour + ", Next Hr: " + nexthr + ", Start Min: " + schedule[j].start_minute 
-      // + ", Next Min: " + nextmin + ", Current Hour: " + time.getHours() + ", Current Min: " + time.getMinutes());
+      console.log("Start Hr: " + schedule[j].start_hour + ", Next Hr: " + nexthr + ", Start Min: " + schedule[j].start_minute 
+      + ", Next Min: " + nextmin + ", Current Hour: " + time.getHours() + ", Current Min: " + time.getMinutes());
 
       if(time.getHours() >= schedule[j].start_hour && time.getHours() <= nexthr) {
         if(time.getMinutes() >= schedule[j].start_minute && time.getMinutes() <= nextmin) {
@@ -227,11 +227,11 @@ export class SchedulesService {
     for(let i = 0; i < schedule.length; i++) {
       let j = (i + offset) % mod;
       let next = schedule[j].minutes + 1;
-      if(time.getHours() == schedule[j].hours && time.getMinutes() == schedule[j].minutes && this.get_manual_flag() == false) {
+      if(time.getHours() == schedule[j].start_hour && time.getMinutes() == schedule[j].start_minute && this.get_manual_flag() == false) {
         this.manual_flag = true;
         this.track = i;
         return this.track;
-      } else if(time.getHours() == schedule[j].hours && time.getMinutes() == next) {
+      } else if(time.getHours() == schedule[j].start_hour && time.getMinutes() == next) {
         this.manual_flag = false;
         this.track = -1;
         return this.track;

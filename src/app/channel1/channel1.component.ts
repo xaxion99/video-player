@@ -21,6 +21,7 @@ export class Channel1Component implements OnInit, DoCheck, OnDestroy {
   current_time: any;
   offset:number = 0;
   interval:string = "30_min";
+  manual = false;
 
   constructor(
     private dtc: DateTimeConverterService,
@@ -44,11 +45,18 @@ export class Channel1Component implements OnInit, DoCheck, OnDestroy {
     
     // Setup the initial video
     const temp = this.fl.load_schedule(1);
-    let tempval = this.s.init_manual_schedule(this.start_time, temp, this.offset);
+    const tempval = this.s.init_manual_schedule(this.start_time, temp, this.offset);
     console.log(tempval);
 
-    let val = this.s.init_schedule(this.start_time, this.interval, this.offset);
+    let val:number;
+    if(this.manual == true) {
+      const sched = this.fl.load_schedule(1);
+      val = this.s.init_manual_schedule(this.start_time, sched, this.offset);
+    } else {
+      val = this.s.init_schedule(this.start_time, this.interval, this.offset);
+    }
     val = val % pl.length; // Used to repeat playlist to eliminate downtime
+
     if(val > -1) {
       console.log(val);
       this.player.playlist.currentItem(val); // Play the chosen index in the playlist
@@ -77,12 +85,29 @@ export class Channel1Component implements OnInit, DoCheck, OnDestroy {
     const pl:any = this.fl.load_playlist(1);
 
     const temp = this.fl.load_schedule(1);
-    let tempval = this.s.init_manual_schedule(this.start_time, temp, this.offset);
+    const tempval = this.s.get_manual_schedule(this.start_time, temp, this.offset);
+    // console.log(tempval);
+    if(tempval > -1) {
+      console.log(tempval);
+    }
 
-    let val = this.s.get_schedule(this.current_time, this.interval, this.offset);
+    let val:number;
+    if(this.manual == true) {
+      const sched = this.fl.load_schedule(1);
+      val = this.s.get_manual_schedule(this.start_time, sched, this.offset);
+    } else {
+      val = this.s.get_schedule(this.current_time, this.interval, this.offset);
+    }
     val = val % pl.length; // Used to repeat playlist to eliminate downtime
     
-    if(this.s.get_flag()) {
+    if(this.s.get_flag() && this.manual == false) {
+      if(val > -1) {
+        console.log(val);
+      }
+      this.player.playlist.currentItem(val);
+      this.player.play();
+      this.player.controlBar.progressControl.disable();
+    } else if(this.s.get_manual_flag() && this.manual == true) {
       if(val > -1) {
         console.log(val);
       }

@@ -2,72 +2,150 @@
     "start_hour": 0,
     "start_minute": 0
 }, {
+    "start_hour": 0,
+    "start_minute": 30
+}, {
     "start_hour": 1,
     "start_minute": 0
+}, {
+    "start_hour": 1,
+    "start_minute": 30
 }, {
     "start_hour": 2,
     "start_minute": 0
 }, {
+    "start_hour": 2,
+    "start_minute": 30
+}, {
     "start_hour": 3,
     "start_minute": 0
+}, {
+    "start_hour": 3,
+    "start_minute": 30
 }, {
     "start_hour": 4,
     "start_minute": 0
 }, {
+    "start_hour": 4,
+    "start_minute": 30
+}, {
     "start_hour": 5,
     "start_minute": 0
+}, {
+    "start_hour": 5,
+    "start_minute": 30
 }, {
     "start_hour": 6,
     "start_minute": 0
 }, {
+    "start_hour": 6,
+    "start_minute": 30
+}, {
     "start_hour": 7,
     "start_minute": 0
+}, {
+    "start_hour": 7,
+    "start_minute": 30
 }, {
     "start_hour": 8,
     "start_minute": 0
 }, {
+    "start_hour": 8,
+    "start_minute": 30
+}, {
     "start_hour": 9,
     "start_minute": 0
+}, {
+    "start_hour": 9,
+    "start_minute": 30
 }, {
     "start_hour": 10,
     "start_minute": 0
 }, {
+    "start_hour": 10,
+    "start_minute": 30
+}, {
     "start_hour": 11,
     "start_minute": 0
+}, {
+    "start_hour": 11,
+    "start_minute": 15
+}, {
+    "start_hour": 11,
+    "start_minute": 30
+}, {
+    "start_hour": 11,
+    "start_minute": 45
 }, {
     "start_hour": 12,
     "start_minute": 0
 }, {
+    "start_hour": 12,
+    "start_minute": 30
+}, {
     "start_hour": 13,
     "start_minute": 0
+}, {
+    "start_hour": 13,
+    "start_minute": 30
 }, {
     "start_hour": 14,
     "start_minute": 0
 }, {
+    "start_hour": 14,
+    "start_minute": 30
+}, {
     "start_hour": 15,
     "start_minute": 0
+}, {
+    "start_hour": 15,
+    "start_minute": 30
 }, {
     "start_hour": 16,
     "start_minute": 0
 }, {
+    "start_hour": 16,
+    "start_minute": 30
+}, {
     "start_hour": 17,
     "start_minute": 0
+}, {
+    "start_hour": 17,
+    "start_minute": 30
 }, {
     "start_hour": 18,
     "start_minute": 0
 }, {
+    "start_hour": 18,
+    "start_minute": 30
+}, {
     "start_hour": 19,
     "start_minute": 0
+}, {
+    "start_hour": 19,
+    "start_minute": 30
 }, {
     "start_hour": 20,
     "start_minute": 0
 }, {
+    "start_hour": 20,
+    "start_minute": 30
+}, {
     "start_hour": 21,
     "start_minute": 0
+}, {
+    "start_hour": 21,
+    "start_minute": 30
 }, {
     "start_hour": 22,
     "start_minute": 0
 }, {
+    "start_hour": 22,
+    "start_minute": 30
+}, {
     "start_hour": 23,
     "start_minute": 0
+}, {
+    "start_hour": 23,
+    "start_minute": 30
 }]
