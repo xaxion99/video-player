@@ -1,0 +1,25 @@
+<div class="row pt-5">
+    <div class="col-md-6 mx-auto">
+      <div class="card rounded-0">
+        <div class="card-header">
+          <h3 class="mb-0">Login</h3>
+        </div>
+        <div class="card-body">
+          <form [formGroup]="form">
+  
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input formControlName="username" name="username" type="text" class="form-control rounded-0" [ngClass]="{ 'is-invalid': form.controls.username.invalid && form.controls.username.touched }" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input formControlName="password" name="password" type="password" class="form-control rounded-0" [ngClass]="{ 'is-invalid': form.controls.password.invalid && form.controls.password.touched }" required>
+            </div>
+  
+            <button [disabled]= "!form.valid" type="button" (click)="login()" class="btn btn-success float-right">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+</div>
