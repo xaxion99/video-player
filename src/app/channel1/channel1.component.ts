@@ -24,6 +24,8 @@ export class Channel1Component implements OnInit, DoCheck, OnDestroy {
   offset:number = 0;
   interval:string = "30_min";
   manual = false;
+  playlist = 2;
+  schedule = 1;
 
   constructor(
     private router: Router,
@@ -41,7 +43,7 @@ export class Channel1Component implements OnInit, DoCheck, OnDestroy {
       this.player = videojs('player');
 
       // Set the playlist and then start loop
-      const pl:any = this.fl.load_playlist(1);
+      const pl:any = this.fl.load_playlist(this.playlist);
       this.player.playlist(pl);
       this.player.playlist.repeat(true);
 
@@ -50,7 +52,7 @@ export class Channel1Component implements OnInit, DoCheck, OnDestroy {
 
       let val:number;
       if(this.manual == true) {
-        const sched = this.fl.load_schedule(1);
+        const sched = this.fl.load_schedule(this.schedule);
         val = this.s.init_manual_schedule(this.start_time, sched, this.offset);
       } else {
         val = this.s.init_schedule(this.start_time, this.interval, this.offset);
@@ -85,11 +87,11 @@ export class Channel1Component implements OnInit, DoCheck, OnDestroy {
 
   ngDoCheck(): void {
     this.current_time = new Date();
-    const pl:any = this.fl.load_playlist(1);
+    const pl:any = this.fl.load_playlist(this.playlist);
 
     let val:number;
     if(this.manual == true) {
-      const sched = this.fl.load_schedule(1);
+      const sched = this.fl.load_schedule(this.schedule);
       val = this.s.get_manual_schedule(this.current_time, sched, this.offset);
     } else {
       val = this.s.get_schedule(this.current_time, this.interval, this.offset);

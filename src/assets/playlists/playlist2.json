@@ -1,0 +1,529 @@
+[{
+    "name": "0000: Yu-Gi-Oh! S0E1",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_S0E1.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_(Season 0).jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_(Season 0).jpg",
+    "duration": "1477"
+}, {
+    "name": "0030: Yu-Gi-Oh! S1E1",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_DM_S1E1.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_DM_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_DM_1.jpg",
+    "duration": "1246"
+}, {
+    "name": "0100: Yu-Gi-Oh! S1E2",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_DM_S1E2.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_DM_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_DM_1.jpg",
+    "duration": "1278"
+}, {
+    "name": "0130: Yu-Gi-Oh! S1E3",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_DM_S1E3.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_DM_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_DM_1.jpg",
+    "duration": "1278"
+}, {
+    "name": "0200: Yu-Gi-Oh! S1E4",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_DM_S1E4.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_DM_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_DM_1.jpg",
+    "duration": "1271"
+}, {
+    "name": "0230: Yu-Gi-Oh! S1E5",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_DM_S1E5.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_DM_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_DM_1.jpg",
+    "duration": "1292"
+}, {
+    "name": "0300: Yu-Gi-Oh! S1E6",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_DM_S1E6.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_DM_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_DM_1.jpg",
+    "duration": "1215"
+}, {
+    "name": "0330: Yu-Gi-Oh! S1E7",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_DM_S1E7.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_DM_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_DM_1.jpg",
+    "duration": "1217"
+}, {
+    "name": "0400: Yu-Gi-Oh! GX S1E1",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_GX_S1E1.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_GX.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_GX.jpg",
+    "duration": "1417"
+}, {
+    "name": "0430: Yu-Gi-Oh! GX S1E2",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_GX_S1E2.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_GX.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_GX.jpg",
+    "duration": "1417"
+}, {
+    "name": "0500: Yu-Gi-Oh! GX S1E3",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_GX_S1E3.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_GX.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_GX.jpg",
+    "duration": "1417"
+}, {
+    "name": "0530: Yu-Gi-Oh! GX S1E4",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_GX_S1E4.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_GX.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_GX.jpg",
+    "duration": "1417"
+}, {
+    "name": "0600: Yu-Gi-Oh! GX S1E5",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_GX_S1E5.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_GX.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_GX.jpg",
+    "duration": "1417"
+}, {
+    "name": "0630: Yu-Gi-Oh! GX S1E6",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_GX_S1E6.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_GX.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_GX.jpg",
+    "duration": "1417"
+}, {
+    "name": "0700: Yu-Gi-Oh! 5Ds S1E1",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_5DS_S1E1.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg",
+    "duration": "1414"
+}, {
+    "name": "0730: Yu-Gi-Oh! 5Ds S1E2",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_5DS_S1E2.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg",
+    "duration": "1414"
+}, {
+    "name": "0800: Yu-Gi-Oh! 5Ds S1E3",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_5DS_S1E3.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg",
+    "duration": "1414"
+}, {
+    "name": "0830: Yu-Gi-Oh! 5Ds S1E4",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_5DS_S1E4.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg",
+    "duration": "1414"
+}, {
+    "name": "0900: Yu-Gi-Oh! 5Ds S1E5",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_5DS_S1E5.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg",
+    "duration": "1414"
+}, {
+    "name": "0930: Yu-Gi-Oh! Zexal S1E1",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_ZEXAL_S1E1.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg",
+    "duration": "1484"
+}, {
+    "name": "1000: Yu-Gi-Oh! Zexal S1E2",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_ZEXAL_S1E2.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg",
+    "duration": "1485"
+}, {
+    "name": "1030: Yu-Gi-Oh! Zexal S1E3",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_ZEXAL_S1E3.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg",
+    "duration": "1484"
+}, {
+    "name": "1100: Yu-Gi-Oh! Zexal S1E4",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_ZEXAL_S1E4.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg",
+    "duration": "1485"
+}, {
+    "name": "1130: Yu-Gi-Oh! Zexal S1E5",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_ZEXAL_S1E5.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg",
+    "duration": "1485"
+}, {
+    "name": "1200: Yu-Gi-Oh! S1E1",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_DM_S1E1.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_DM_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_DM_1.jpg",
+    "duration": "1246"
+}, {
+    "name": "1230: Yu-Gi-Oh! S1E2",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_DM_S1E2.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_DM_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_DM_1.jpg",
+    "duration": "1278"
+}, {
+    "name": "1300: Yu-Gi-Oh! S1E3",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_DM_S1E3.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_DM_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_DM_1.jpg",
+    "duration": "1278"
+}, {
+    "name": "1330: Yu-Gi-Oh! S1E4",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_DM_S1E4.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_DM_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_DM_1.jpg",
+    "duration": "1271"
+}, {
+    "name": "1400: Yu-Gi-Oh! S1E5",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_DM_S1E5.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_DM_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_DM_1.jpg",
+    "duration": "1292"
+}, {
+    "name": "1430: Yu-Gi-Oh! S1E6",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_DM_S1E6.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_DM_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_DM_1.jpg",
+    "duration": "1215"
+}, {
+    "name": "1500: Yu-Gi-Oh! S1E7",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_DM_S1E7.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_DM_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_DM_1.jpg",
+    "duration": "1217"
+}, {
+    "name": "1530: Yu-Gi-Oh! S1E8",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_DM_S1E8.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_DM_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_DM_1.jpg",
+    "duration": "1212"
+}, {
+    "name": "1600: Yu-Gi-Oh! GX S1E1",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_GX_S1E1.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_GX.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_GX.jpg",
+    "duration": "1417"
+}, {
+    "name": "1630: Yu-Gi-Oh! GX S1E2",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_GX_S1E2.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_GX.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_GX.jpg",
+    "duration": "1417"
+}, {
+    "name": "1700: Yu-Gi-Oh! GX S1E3",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_GX_S1E3.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_GX.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_GX.jpg",
+    "duration": "1417"
+}, {
+    "name": "1730: Yu-Gi-Oh! GX S1E4",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_GX_S1E4.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_GX.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_GX.jpg",
+    "duration": "1417"
+}, {
+    "name": "1800: Yu-Gi-Oh! GX S1E5",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_GX_S1E5.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_GX.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_GX.jpg",
+    "duration": "1417"
+}, {
+    "name": "1830: Yu-Gi-Oh! GX S1E6",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_GX_S1E6.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_GX.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_GX.jpg",
+    "duration": "1417"
+}, {
+    "name": "1900: Yu-Gi-Oh! 5Ds S1E1",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_5DS_S1E1.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg",
+    "duration": "1414"
+}, {
+    "name": "1930: Yu-Gi-Oh! 5Ds S1E2",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_5DS_S1E2.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg",
+    "duration": "1414"
+}, {
+    "name": "2000: Yu-Gi-Oh! 5Ds S1E3",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_5DS_S1E3.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg",
+    "duration": "1414"
+}, {
+    "name": "2030: Yu-Gi-Oh! 5Ds S1E4",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_5DS_S1E4.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg",
+    "duration": "1414"
+}, {
+    "name": "2100: Yu-Gi-Oh! 5Ds S1E5",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_5DS_S1E5.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_5DS_1.jpg",
+    "duration": "1414"
+}, {
+    "name": "2130: Yu-Gi-Oh! Zexal S1E1",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_ZEXAL_S1E1.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg",
+    "duration": "1484"
+}, {
+    "name": "2200: Yu-Gi-Oh! Zexal S1E2",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_ZEXAL_S1E2.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg",
+    "duration": "1485"
+}, {
+    "name": "2230: Yu-Gi-Oh! Zexal S1E3",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_ZEXAL_S1E3.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg",
+    "duration": "1484"
+}, {
+    "name": "2300: Yu-Gi-Oh! Zexal S1E4",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_ZEXAL_S1E4.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg",
+    "duration": "1485"
+}, {
+    "name": "2330: Yu-Gi-Oh! Zexal S1E5",
+    "sources": [{
+      "src": "assets/MP4/Day 1/Yu-Gi-Oh!_ZEXAL_S1E5.mp4",
+      "type": "video/mp4"
+    }],
+    "thumbnail": [{
+        "src": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg"
+    }],
+    "poster": "assets/posters/Yu-Gi-Oh!_Zexal_1.jpg",
+    "duration": "1485"
+}]
