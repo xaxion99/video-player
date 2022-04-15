@@ -35,6 +35,12 @@ export class SchedulesService {
     } else if(interval == "6_min") {
       array.push(this.hours);
       array.push([0, 6, 12, 18, 24, 30, 36, 42, 48, 54]);
+    } else if(interval == "8_min") { // NOTE: Does not work
+      array.push(this.hours);
+      array.push([0, 6, 12, 18, 24, 30, 36, 42, 48, 54]);
+    } else if(interval == "9_min") { // NOTE: Does not work
+      array.push(this.hours);
+      array.push([0, 6, 12, 18, 24, 30, 36, 42, 48, 54]);
     } else if(interval == "10_min") {
       array.push(this.hours);
       array.push([0, 10, 20, 30, 40, 50]);
@@ -44,10 +50,25 @@ export class SchedulesService {
     } else if(interval == "15_min") {
       array.push(this.hours);
       array.push([0, 15, 30, 45]);
+    } else if(interval == "16_min") { // NOTE: Does not work
+      array.push(this.hours);
+      array.push([0, 15, 30, 45]);
+    } else if(interval == "18_min") { // NOTE: Does not work
+      array.push(this.hours);
+      array.push([0, 15, 30, 45]);
     } else if(interval == "20_min") {
       array.push(this.hours);
       array.push([0, 20, 40]);
+    } else if(interval == "24_min") { // NOTE: Does not work
+      array.push(this.hours);
+      array.push([0, 20, 40]);
     } else if(interval == "30_min") {
+      array.push(this.hours);
+      array.push([0, 30]);
+    } else if(interval == "32_min") { // NOTE: Does not work
+      array.push(this.hours);
+      array.push([0, 30]);
+    } else if(interval == "36_min") { // NOTE: Does not work
       array.push(this.hours);
       array.push([0, 30]);
     } else if(interval == "40_min") { // NOTE: Does not work
@@ -56,19 +77,40 @@ export class SchedulesService {
     } else if(interval == "45_min") {  // NOTE: Does not work
       array.push(this.hours);
       array.push(this.minutes);
+    } else if(interval == "48_min") {  // NOTE: Does not work
+      array.push(this.hours);
+      array.push(this.minutes);
     } else if(interval == "1_hr") {
       array.push(this.hours);
       array.push(this.minutes);
-    } else if(interval == "1.5_hr") {  // NOTE: Does not work
+    } else if(interval == "1.2_hr") {  // NOTE: Does not work 72-min
+      array.push(this.hours);
+      array.push(this.minutes);
+    } else if(interval == "1.3_hr") {  // NOTE: Does not work 80-min
+      array.push(this.hours);
+      array.push(this.minutes);
+    } else if(interval == "1.5_hr") {  // NOTE: Does not work 90-min
+      array.push(this.hours);
+      array.push(this.minutes);
+    } else if(interval == "1.6_hr") {  // NOTE: Does not work 96-min
       array.push(this.hours);
       array.push(this.minutes);
     } else if(interval == "2_hr") {
+      array.push([0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22]);
+      array.push(this.minutes);
+    } else if(interval == "2.4_hr") {  // NOTE: Does not work 144-min
+      array.push([0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22]);
+      array.push(this.minutes);
+    } else if(interval == "2.7_hr") {  // NOTE: Does not work 160-min
       array.push([0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22]);
       array.push(this.minutes);
     } else if(interval == "3_hr") {
       array.push([0, 3, 6, 9, 12, 15, 18, 21]);
       array.push(this.minutes);
     } else if(interval == "4_hr") {
+      array.push([0, 4, 8, 12, 16, 20]);
+      array.push(this.minutes);
+    } else if(interval == "4.8_hr") {  // NOTE: Does not work 288-min
       array.push([0, 4, 8, 12, 16, 20]);
       array.push(this.minutes);
     } else if(interval == "6_hr") {
