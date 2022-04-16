@@ -76,7 +76,7 @@ export class SchedulesService {
   // and trigger flag to prevent duplicate entry
   get_schedule(time:Date, interval:number, offset=0) {
     const s = this.build_schedule(interval);
-    const mod = interval;
+    const mod = 1440 / interval;
     for(let i = 0; i < s.length; i++) {
       let j = (i + offset) % mod;
       let next = s[j].minutes + 1;
