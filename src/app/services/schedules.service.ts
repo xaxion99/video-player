@@ -12,133 +12,16 @@ export class SchedulesService {
 
   constructor() { }
 
-  // Automated Scheduling (Currently only works with equal-interval time slots, although some interesting customs configs are possible)
-  // Function to get timing intervals for a day. Genericized all the timings.
-  timings(interval:string) {
-    const array = [];
-    if(interval == "1_min") {
-      array.push(this.hours);
-      array.push([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 
-        31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]);
-    } else if(interval == "2_min") {
-      array.push(this.hours);
-      array.push([0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58]);
-    } else if(interval == "3_min") {
-      array.push(this.hours);
-      array.push([0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57]);
-    } else if(interval == "4_min") {
-      array.push(this.hours);
-      array.push([0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56]);
-    } else if(interval == "5_min") {
-      array.push(this.hours);
-      array.push([0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55]);
-    } else if(interval == "6_min") {
-      array.push(this.hours);
-      array.push([0, 6, 12, 18, 24, 30, 36, 42, 48, 54]);
-    } else if(interval == "8_min") { // NOTE: Does not work
-      array.push(this.hours);
-      array.push([0, 6, 12, 18, 24, 30, 36, 42, 48, 54]);
-    } else if(interval == "9_min") { // NOTE: Does not work
-      array.push(this.hours);
-      array.push([0, 6, 12, 18, 24, 30, 36, 42, 48, 54]);
-    } else if(interval == "10_min") {
-      array.push(this.hours);
-      array.push([0, 10, 20, 30, 40, 50]);
-    } else if(interval == "12_min") {
-      array.push(this.hours);
-      array.push([0, 12, 24, 36, 48]);
-    } else if(interval == "15_min") {
-      array.push(this.hours);
-      array.push([0, 15, 30, 45]);
-    } else if(interval == "16_min") { // NOTE: Does not work
-      array.push(this.hours);
-      array.push([0, 15, 30, 45]);
-    } else if(interval == "18_min") { // NOTE: Does not work
-      array.push(this.hours);
-      array.push([0, 15, 30, 45]);
-    } else if(interval == "20_min") {
-      array.push(this.hours);
-      array.push([0, 20, 40]);
-    } else if(interval == "24_min") { // NOTE: Does not work
-      array.push(this.hours);
-      array.push([0, 20, 40]);
-    } else if(interval == "30_min") {
-      array.push(this.hours);
-      array.push([0, 30]);
-    } else if(interval == "32_min") { // NOTE: Does not work
-      array.push(this.hours);
-      array.push([0, 30]);
-    } else if(interval == "36_min") { // NOTE: Does not work
-      array.push(this.hours);
-      array.push([0, 30]);
-    } else if(interval == "40_min") { // NOTE: Does not work
-      array.push(this.hours);
-      array.push([0, 30]);
-    } else if(interval == "45_min") {  // NOTE: Does not work
-      array.push(this.hours);
-      array.push(this.minutes);
-    } else if(interval == "48_min") {  // NOTE: Does not work
-      array.push(this.hours);
-      array.push(this.minutes);
-    } else if(interval == "1_hr") {
-      array.push(this.hours);
-      array.push(this.minutes);
-    } else if(interval == "1.2_hr") {  // NOTE: Does not work 72-min
-      array.push(this.hours);
-      array.push(this.minutes);
-    } else if(interval == "1.3_hr") {  // NOTE: Does not work 80-min
-      array.push(this.hours);
-      array.push(this.minutes);
-    } else if(interval == "1.5_hr") {  // NOTE: Does not work 90-min
-      array.push(this.hours);
-      array.push(this.minutes);
-    } else if(interval == "1.6_hr") {  // NOTE: Does not work 96-min
-      array.push(this.hours);
-      array.push(this.minutes);
-    } else if(interval == "2_hr") {
-      array.push([0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22]);
-      array.push(this.minutes);
-    } else if(interval == "2.4_hr") {  // NOTE: Does not work 144-min
-      array.push([0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22]);
-      array.push(this.minutes);
-    } else if(interval == "2.7_hr") {  // NOTE: Does not work 160-min
-      array.push([0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22]);
-      array.push(this.minutes);
-    } else if(interval == "3_hr") {
-      array.push([0, 3, 6, 9, 12, 15, 18, 21]);
-      array.push(this.minutes);
-    } else if(interval == "4_hr") {
-      array.push([0, 4, 8, 12, 16, 20]);
-      array.push(this.minutes);
-    } else if(interval == "4.8_hr") {  // NOTE: Does not work 288-min
-      array.push([0, 4, 8, 12, 16, 20]);
-      array.push(this.minutes);
-    } else if(interval == "6_hr") {
-      array.push([0, 6, 12, 18]);
-      array.push(this.minutes);
-    } else if(interval == "8_hr") {
-      array.push([0, 8, 16]);
-      array.push(this.minutes);
-    } else if(interval == "12_hr") {
-      array.push([0, 12]);
-      array.push(this.minutes);
-    } else if(interval == "24_hr") {
-      array.push([0]);
-      array.push(this.minutes);
-    }
-    return array;
-  }
-
   // Build schedule with appropriate intervals
-  build_schedule(hr_intervals:number[]=this.hours, min_intervals:number[]=this.minutes) {
-    const minutes = min_intervals;
-    const hours = hr_intervals;
+  build_schedule(interval:number) {
     const intervals = [];
-    for(let i = 0; i < hours.length; i++) {
-      for(let j = 0; j < minutes.length; j++) {
+    for(let i = 0; i < 1440; i++) {
+      if(i % interval == 0) {
+        let hours = Math.floor(i / 60);
+        let minutes = i - (60 * hours);
         intervals.push({
-          "hours": hours[i],
-          "minutes": minutes[j]
+          "hours": hours,
+          "minutes": minutes
         });
       }
     }
@@ -146,10 +29,9 @@ export class SchedulesService {
   }
 
   // Get the current track in the generic equal-interval schedule on initialization
-  init_schedule(time:Date, interval:string, offset=0) {
-    const tmg = this.timings(interval);
-    const s = this.build_schedule(tmg[0], tmg[1]);
-    const mod = tmg[0].length * tmg[1].length;
+  init_schedule(time:Date, interval:number, offset=0) {
+    const s = this.build_schedule(interval);
+    const mod = 1440 / interval;
     for(let i = 0; i < s.length; i++) {
       let j = (i + offset) % mod;
       let nexthr:number;
@@ -192,10 +74,9 @@ export class SchedulesService {
 
   // Get the current track when a time change happens on generic equal-interval schedule 
   // and trigger flag to prevent duplicate entry
-  get_schedule(time:Date, interval:string, offset=0) {
-    const tmg = this.timings(interval);
-    const s = this.build_schedule(tmg[0], tmg[1]);
-    const mod = tmg[0].length * tmg[1].length;
+  get_schedule(time:Date, interval:number, offset=0) {
+    const s = this.build_schedule(interval);
+    const mod = interval;
     for(let i = 0; i < s.length; i++) {
       let j = (i + offset) % mod;
       let next = s[j].minutes + 1;

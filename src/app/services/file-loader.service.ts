@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 
+import * as playlist0 from 'src/assets/playlists/playlist0.json'
 import * as playlist1 from 'src/assets/playlists/playlist1.json'
 import * as playlist2 from 'src/assets/playlists/playlist2.json'
 import * as schedule1 from 'src/assets/schedules/schedule1.json'
@@ -27,7 +28,7 @@ export class FileLoaderService {
     } else if(playlist_selector == 2) {
       return playlist2;
     } else {
-      return playlist1;
+      return playlist0;
     }
   }
 

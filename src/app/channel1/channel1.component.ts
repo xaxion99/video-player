@@ -22,9 +22,9 @@ export class Channel1Component implements OnInit, DoCheck, OnDestroy {
   start_time: any;
   current_time: any;
   offset:number = 0;
-  interval:string = "30_min";
+  interval:number = 30;
   manual = false;
-  playlist = 2;
+  playlist = 1;
   schedule = 1;
 
   constructor(
@@ -69,7 +69,7 @@ export class Channel1Component implements OnInit, DoCheck, OnDestroy {
         // time an thus will restart full video if within differential
         const diff = 1800 - pl[val].duration;
         this.current_time = new Date();
-        const time_since_start = ((this.current_time.getMinutes() % 30) * 60) + this.current_time.getSeconds();  // Review this line to make system more generic
+        const time_since_start = ((this.current_time.getMinutes() % this.interval) * 60) + this.current_time.getSeconds();  // I think its fixed
         if( time_since_start > diff) {
           this.player.currentTime(time_since_start - diff);
         }

@@ -21,7 +21,7 @@ export class Channel2Component implements OnInit, DoCheck, OnDestroy {
   start_time: any;
   current_time: any;
   offset:number = 0;
-  interval:string = "30_min";
+  interval:number = 30;
   manual = false;
 
   constructor(
